@@ -1,0 +1,12 @@
+anthropic
+python-dotenv
+pygame
+sounddevice
+webrtcvad-wheels  # 話し声の検出(ウェイクワード用)
+livekit  # WebRTC のエコーキャンセラー(話し中の割り込み用)
+soundfile
+numpy
+faster-whisper
+mlx-whisper; sys_platform == "darwin" and platform_machine == "arm64"  # Mac の GPU で音声認識
+# OpenAI の音声認識/合成を使う場合だけ必要(Raspberry Pi 移行時に使う想定)
+# openai

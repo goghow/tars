@@ -1,0 +1,16 @@
+# APIキーなどの秘密情報。絶対にコミットしない
+.env
+.env.*
+!.env.example
+
+# 長期記憶(会話から覚えた個人的な情報)
+memory.json
+memory.json.tmp
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
